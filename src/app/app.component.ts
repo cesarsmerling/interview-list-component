@@ -1,4 +1,4 @@
-import { AirportsApiService } from "./api/aiports-api.service";
+import { AirportsApiService } from "./api/airports-api.service";
 import { Component, inject, OnInit } from "@angular/core";
 import { AirlinesApiService } from "./api/airlines-api.service";
 
@@ -11,7 +11,7 @@ import { AirlinesApiService } from "./api/airlines-api.service";
   `,
   styles: [],
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   private airlinesApi = inject(AirlinesApiService);
   private aiportsApi = inject(AirportsApiService);
 
