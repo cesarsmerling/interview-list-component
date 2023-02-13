@@ -21,3 +21,6 @@ You could use the airlines.json and airports.json files in the project to get so
 Here is how the list should look with the airlines and airports data:
 
 https://whimsical.com/list-component-prototype-ABx9SBPVEtFEf8STWRHRFr
+
+## Project workspace StackBlitz (angular project)
+https://stackblitz.com/edit/angular-huhv7r?file=src/main.ts
